@@ -2,7 +2,8 @@ import pandas as pd               # pandas : bibliothèque pour manipuler des ta
 import seaborn as sns             # seaborn : librairie de visualisation (basée sur matplotlib)
 import matplotlib.pyplot as plt   # matplotlib : pour créer des figures personnalisées
 import streamlit as st            # streamlit : framework pour créer des applications web interactives en Python
-import
+
+# Configuration de la page Streamlit -----------------------------------------
 st.set_page_config(page_title="💼 Analyse des Salaires", layout="wide")
 # st.set_page_config : configure des paramètres globaux de l'app Streamlit.
 # page_title : le texte qui apparaît dans l'onglet du navigateur.
